@@ -1,5 +1,10 @@
-a=int(input());
-if(a%2==0):
-print("even")
+r=int(input())
+if r<1 :
+  print("invalid")
+
+elif r%2==0 :
+  print("Even")
+
+  
 else:
-print("odd")
+  print("Odd")
